@@ -1,0 +1,16 @@
+name: bumpbuy_tiktok_sdk
+description: TikTok Business iOS SDK wrapper for BumpBuy
+version: 1.0.0
+
+environment:
+sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+flutter:
+sdk: flutter
+
+flutter:
+plugin:
+platforms:
+ios:
+pluginClass: BumpBuyTikTokSdkPlugi
